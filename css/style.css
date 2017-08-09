@@ -8,21 +8,22 @@
 }
 .clouds {
   position: absolute;
-  margin: 5px 200px;
+  left: 225px;
   width: 290px;
   height: 103px;
   background-image: url(../img/clouds.svg);
 }
 .water {
   position: absolute;
-  margin: 400px 0px;
+  top: 410px; 
   height: 48px;
   background-image: url(../img/water.svg);
   z-index:2;
  }
 .wooden-ship {
   position: absolute;
-  margin: 300px 12px;
+  top: 315px;
+  left: 20px;
   width: 106px;
   height: 107px;
   background-image: url(../img/wooden-ship.svg);
@@ -30,7 +31,7 @@
 }
 .world {
   position: absolute;
-  margin: 100px 0px;
+  top: 110px;
   height: 340px;
   background-image: url(../img/world.svg);
 }
